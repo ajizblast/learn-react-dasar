@@ -4,12 +4,12 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 // import component
-import Event from "./event";
+import Props from "./props";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Event />
+    <Props />
   </React.StrictMode>
 );
 
